@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo url('/assets/css/style.css') ?>">
-    <title>MON SITE MARKETPLACE</title>
+    <title>It Alt</title>
 </head>
 <body>
 <header>
-        <h1>Mon site marketPlace</h1>
+        <h1>IT ALTernance</h1>
         <nav>
             <ul>
                 <li><a href="<?php echo url('/') ?>">Accueil</a></li>
@@ -23,7 +23,7 @@
         </section>
     </main>
     <footer>
-        <p>Tous droits réservés  @Dbieres 2019</p>
+        <p>Tous droits réservés  @IT-ALT 2019</p>
     </footer>
 
 
