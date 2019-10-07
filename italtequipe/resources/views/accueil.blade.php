@@ -12,7 +12,6 @@
         <nav>
             <ul>
                 <li><a href="<?php echo url('/') ?>">Accueil</a></li>
-                <li><a href="<?php echo url('/galerie') ?>">Galerie</a></li>
                 <li><a href="<?php echo url('/contact') ?>">contact</a></li>
             </ul>
         </nav>

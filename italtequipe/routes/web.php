@@ -15,6 +15,6 @@
     return view('welcome');
 });*/
 
-Route::view('/galerie', 'galerie');
+/*Route::view('/galerie', 'galerie');*/
 Route::view('/contact', 'contact');
 Route::view('/', 'accueil');
