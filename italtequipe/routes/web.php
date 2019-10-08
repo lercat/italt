@@ -16,5 +16,11 @@
 });*/
 
 /*Route::view('/galerie', 'galerie');*/
-Route::view('/contact', 'contact');
-Route::view('/', 'accueil');
+
+Route::get('/', function () {
+    return redirect('/candidat');
+});
+
+Route::view('/candidat', 'candidat');
+Route::view('/entreprise', 'entreprise');
+Route::view('/ecole', 'ecole');
