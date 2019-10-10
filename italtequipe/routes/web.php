@@ -15,12 +15,14 @@
     return view('welcome');
 });*/
 
-/*Route::view('/galerie', 'galerie');*/
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return redirect('/candidat');
-});
+});*/
 
+Route::view('/', 'accueil');
 Route::view('/candidat', 'candidat');
 Route::view('/entreprise', 'entreprise');
 Route::view('/ecole', 'ecole');
+Route::view('/faq', 'faq');
+Route::view('/contact', 'contact');
