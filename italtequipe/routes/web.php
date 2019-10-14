@@ -19,7 +19,6 @@
 /*Route::get('/', function () {
     return redirect('/candidat');
 });*/
-
 Route::view('/', 'accueil');
 Route::view('/candidat', 'candidat');
 Route::view('/entreprise', 'entreprise');
