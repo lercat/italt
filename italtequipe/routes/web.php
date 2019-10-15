@@ -25,3 +25,4 @@ Route::view('/entreprise', 'entreprise');
 Route::view('/ecole', 'ecole');
 Route::view('/faq', 'faq');
 Route::view('/contact', 'contact');
+Route::view('/formulaire', 'formulaire');

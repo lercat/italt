@@ -46,6 +46,7 @@
             Nous comptons sur tout le monde pour que ce site émerge et devienne réalité !!!</p>
         </section>
 
+
         <section>
             <h2>Ils nous soutiennent</h2>
         </section>
