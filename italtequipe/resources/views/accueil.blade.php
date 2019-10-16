@@ -9,7 +9,7 @@
 </head>
 <body>
         <div class="header">
-                <img src="img/logo_italt_aseul.png" class="logo" width="4%" alt="log" >
+                <img src="assets/images/logo_italt_aseul.png" class="logo" width="4%" alt="log" >
                 <div class="header-right">
                         <a class="active" a href="<?php echo url('/ecole') ?>">Écoles</a>
                         <a class="active1" a href="<?php echo url('/candidat') ?>">Candidats</a>
@@ -22,7 +22,7 @@
 
              <section id="a-propos">
               <div>
-                  <img src="img/header.png" width="100%" >
+                  <img src="assets/images/header.png" width="100%" >
                 <h1>Que pouvons nous faire pour vous ?</h1>
                 <p>Cliquez sur la rubrique correspondant à votre profil<br>pour découvrir ce que nous proposons</p>
                 </div>
