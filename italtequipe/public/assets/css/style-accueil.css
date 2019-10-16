@@ -89,11 +89,4 @@ p{
     font-size: 21px;
   }
 
-  a:hover::after {
-    content: "";
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    bottom: 0;
-    border: 1px solid black;
-  }
+ 
