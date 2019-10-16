@@ -95,4 +95,59 @@ p{
     font-size: 21px;
   }
 
- 
+
+  /*   css formulaires ///////////////////////////////////////// 
+              ///////////////////////////////////////////////////////////////////  */
+  form {
+    margin: 2em auto;
+    width: 360px;
+    padding: 1em;
+    border: 1px solid #24A9D0;
+    border-radius: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #24A9D0;
+    padding-bottom: 1em;
+  }
+
+label, span {
+  width: 8em;
+}
+  
+  input, textarea {
+    font: 14px 'Roboto';
+    width: 300px;
+  
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  
+    border: 1px solid #000;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    color:  rgba(239, 143, 23, 0.514);
+    height: 10em;
+    /* To allow users to resize any textarea vertically
+       It works only on Chrome, Firefox and Safari */
+    resize: vertical;
+  }
+
+  
+  .button {
+    padding-left: 90px;
+  }
+  
+  button {
+  margin-left: .5em;
+}
+
