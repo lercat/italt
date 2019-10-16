@@ -9,7 +9,7 @@
 </head>
 <body>
         <div class="header">
-                <img src="assets/images/logo_italt_aseul.png" class="logo" width="4%" alt="log" >
+                <img src="assets/images/logo_italt_aseul.png" class="logo" alt="log" >
                 <div class="header-right">
                         <a class="active" a href="<?php echo url('/ecole') ?>">Écoles</a>
                         <a class="active1" a href="<?php echo url('/candidat') ?>">Candidats</a>
