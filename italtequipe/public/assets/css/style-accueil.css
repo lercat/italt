@@ -1,16 +1,21 @@
 
 * {box-sizing: border-box;}
+  /*Police textes  */
 
-body { 
+  body { 
   margin: 0;
   font-family: 'Roboto', 'Monserrat', sans-serif;
 }
+   
+/* Div Header */
 
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 0px 0px;
 }
+
+/* Navbar liens */
 
 .header a {
   float: left;
@@ -21,23 +26,18 @@ body {
   font-size: 15px; 
   padding: 21px 25px;
   display : inline ;
-  padding-right : 50px;
+  /* padding-right : 50px; */
   
 }
 
-
+/* Navbar liens au passage de la souris ( hoover ) */
 .header a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.header-right {
-  float: right;
-  
-}
-.logo {
-  width: 4%;
-}
+/* Nav liens sous titrage de couleur */
+
 a.active {
     border-bottom: 8px solid #14213D;
     padding-bottom: 5px;
@@ -51,6 +51,15 @@ a.active {
     padding-bottom: 5px;
     }
 
+    /* Taille du logo */
+
+.logo {
+  width: 4%;
+}
+
+
+/* Media queries */
+
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -58,10 +67,6 @@ a.active {
     text-align: left;
   }
   
-  .header-right {
-    float: none;
-  }
-}
 
 h1 {
     text-align: center;
@@ -80,8 +85,10 @@ p{
     font-size: 16px; 
     color: black;  
 }
+/* Div items taille, positionnement des textes et liens */
+  
 
-   #items  {
+#items  {
     text-decoration:none;
     display: flex;
     justify-content: center;
