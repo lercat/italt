@@ -38,3 +38,6 @@ Route::view('/espace-admin', 'espace-admin');
 Route::any('/contact/store', 'ContactController@store');
 //Route::any('/annonce/store', 'AnnonceController@store');
 //mais il me semble que je n'ai pas ce fichier ds Http/Controllers !!!
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
