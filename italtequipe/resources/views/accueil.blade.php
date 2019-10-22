@@ -32,7 +32,7 @@
                      <li><a class="active1" a href="<?php echo url('/candidat') ?>">Candidats</a></li>
                      <li><a class="active2" a href="<?php echo url('/entreprise') ?>">Entreprises</a></li>
                     <li><a class="active3"  a href="<?php echo url('/contact') ?>">Contact</a></li>
-                     <li><a href="#"><i class="fa fa-user 7x"></i></a></li>
+                     <li><a href="#"><i class="fa fa-user 7x" ></i></a></li>
                      
          </ul>
          </div>
