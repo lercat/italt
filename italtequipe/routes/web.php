@@ -38,6 +38,17 @@ Route::view('/espace-admin', 'espace-admin');
 Route::any('/contact/store', 'ContactController@store');
 //Route::any('/annonce/store', 'AnnonceController@store');
 //mais il me semble que je n'ai pas ce fichier ds Http/Controllers !!!
+
 Auth::routes();
+// CETTE LIGNE DE CODE CREE PLUSIEURS URLS DE ROUTE
+// /register                => INSCRIPTION D'UN NOUVEL UTILISATEUR
+// /login                   => UN VISITEUR PEUT S'IDENTIFIER
+// /logout                  => UN MEMBRE PEUT SE DECONNECTER
+// /password/reset          => UN MEMBRE PEUT DEMANDER A RETROUVER SON MOT DE PASSE
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// ON VA AJOUTER LA PAGE /annonces 
+// QUI VA AFFICHER LA LISTE DES ANNONCES
+// ON VA UTILISER LE TEMPLATE /resources/views/annonces.blade.php
+Route::view('/annonces', 'annonces');
