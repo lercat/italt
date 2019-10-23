@@ -78,11 +78,18 @@
                     @endauth
                 </div>
             @endif
-
+<!--on peut découper -pomme x -ici de la 1 à 81
+qu'on va remplacer par @include('header')
+donc on crée un header.blade.php et on colle -pomme v-->
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
                 </div>
+<!--on peut découper ici de la 88 à 100
+idem que pour le header
+@include('footer')
+et pomme x, pomme v
+-->
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
