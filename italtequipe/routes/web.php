@@ -46,6 +46,11 @@ Auth::routes();
 // /logout                  => UN MEMBRE PEUT SE DECONNECTER
 // /password/reset          => UN MEMBRE PEUT DEMANDER A RETROUVER SON MOT DE PASSE
 
+// Pour des raisons de sécurité, votre mot de passe doit faire :min caractères
+// message spécifique à rajouter pour le password ds un tab
+// ce message ne fonctionnera que pour ce formulaire
+// à trouver où le placer
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 // ON VA AJOUTER LA PAGE /annonces 
