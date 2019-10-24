@@ -1,3 +1,18 @@
+/*------------------ MISE EN PAGE / POLICE -------------------
+---------------------------------------------------*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/*---------------------------------------------------*/
+
 h1 {
   font-size: 50px;
   line-height: 1.3;
@@ -676,20 +691,6 @@ button#ecole button#alternant button#ecole{
 float:left;
  position:relative; 
 }
-}
-
-
-/*------------------ MISE EN PAGE / POLICE -------------------
----------------------------------------------------*/
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
 }
 
 /*---------------- SECTION A PROPOS -----------------
