@@ -129,11 +129,41 @@ function topFunction() {
 // //-------------------------------------------------------
 
 
-function changeImage(element) {
-    document.getElementById('imageReplace').src = element;
-    }
+// CONTENUS
+const ecole = document.querySelector(".ecole");
+const alternant = document.querySelector(".alternant");
+const entreprise = document.querySelector(".entreprise");
+		
+		
+// BOUTONS
+const boutonecole = document.querySelector("#ecole");
+const boutonentreprise = document.querySelector("#entreprise");
+const boutonalternant = document.querySelector("#alternant");
+        
+		
+		
+
+        boutonecole.addEventListener("click",(event)=>{
+			ecole.style.display="block";
+			alternant.style.display="none";
+			entreprise.style.display="none";
+		 
+        });
 
 
+        boutonalternant.addEventListener("click",(event)=>{
+			alternant.style.display="block";
+			ecole.style.display="none";
+			entreprise.style.display="none";
+		
+		});
+		
+
+        boutonentreprise.addEventListener("click",(event)=>{
+			entreprise.style.display="block";
+			alternant.style.display="none";
+			ecole.style.display="none";
+        });
 
 
 
