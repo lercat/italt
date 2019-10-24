@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="<?php echo url('/assets/css/style-accueil.css') ?>">
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
-        <script src="<?php echo url('/assets/js/scrollreveal.min.js')?>"</script>
+        <script src="<?php echo url('/assets/js/scrollreveal.min.js') ?>"></script>
         <title>IT ALTERNANCE au service du numérique</title>
 </head>
 
@@ -83,7 +83,7 @@
             </ul>
            
             <div class="Qui">
-                <img src="assets/images/qui.png" class=="qui1" alt="vecteur2">
+                <img src="assets/images/qui.png" class="qui1" alt="vecteur2">
                 <div class="center">
                     <b>Qui sommes-nous ?</b>
                     <br><br>Nous sommes une équipe de developpeuses web FullStack , qui ont pour ambition de rendre
