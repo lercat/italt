@@ -69,10 +69,18 @@
             <button id="alternant">Vous êtes un Alternant</button>
             <button id="ecole">Vous êtes une Ecole</button>
 
-            
-            <ul class="alternant" style="display: block;">
+            <div class="alternant" style="display: block;">
+            <ul class='absolut' >
                 <li><img src="assets/images/fond-card-alternant.png" class="carte" alt=""></li>
             </ul>
+            <p class='relative'>
+            mmmmmmm mmmm 
+            mmmmmm 
+            mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
+            <br>
+            <button>commencer </button> 
+            </p>
+            </div>
 
             <ul class="ecole" style="display: none;">
                 <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li>
