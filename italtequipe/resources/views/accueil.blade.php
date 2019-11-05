@@ -78,17 +78,41 @@
             mmmmmm 
             mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
             <br>
-            <button>commencer </button> 
+            <a href="<?php echo url('/candidat') ?>"><button>  commencer </button> </a>
             </p>
             </div>
 
-            <ul class="ecole" style="display: none;">
+
+
+            <div class="ecole" style="display: none;">
+            <ul class='absolut'>
                 <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li>
             </ul>
+            <p class='relative'>
+            mmmmmmm mmmm 
+            mmmmmm 
+            mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
+            <br>
+            <a href="<?php echo url('/ecole') ?>"><button>  commencer </button> </a>
+            </p>
+            </div>
 
-            <ul class="entreprise" style="display:none;">
+
+            <div class="entreprise" style="display:none;">
+            <ul class='absolut'>
                 <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li>
             </ul>
+            <p class='relative'>
+            mmmmmmm mmmm 
+            mmmmmm 
+            mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
+            <br>
+            <a href="<?php echo url('/entreprise') ?>"><button>  commencer </button> </a>
+            </p>
+            </div>
+
+
+
            
             <div class="Qui">
                 <img src="assets/images/qui.png" class="qui1" alt="vecteur2">
