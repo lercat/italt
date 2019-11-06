@@ -70,18 +70,18 @@
             <button id="ecole">Vous êtes une Ecole</button>
 
             <ul class="alternant" style="display: block;">
-                <li><img src="img/fond-card-alternant.png" class="carte" alt=""></li>
+                <li><img src="assets/images/fond-card-alternant.png" class="carte" alt=""></li>
             </ul>
 
             <ul class="ecole" style="display: none;">
-                <li><img src="img/fond-card-ecole.png" class="carte" alt=""></li>
+                <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li>
             </ul>
 
             <ul class="entreprise" style="display:none;">
-                <li><img src="img/fond-card-entreprise.png" class="carte" alt=""></li>   
+                <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li>   
             </ul>
             <div class="Qui">
-                <img src="img/qui.png" class=="qui1" alt="vecteur2">
+                <img src="assets/images/qui.png" class=="qui1" alt="vecteur2">
                 <div class="center">
                     <b>Qui sommes-nous ?</b>
                     <br><br>Nous sommes une équipe de developpeuses web FullStack , qui ont pour ambition de rendre
@@ -97,12 +97,12 @@
     <section id="contact">
         <h3 class="insta">Ils nous soutiennent </h3>
         <div class="figure-img1">
-            <a href=""><img src="img/logo-part/logo-simplon.png" alt="instapic3"></a>
-            <a href=""><img src="img/logo-part/logo-french-tech.png" alt="instapic2"></a>
-            <a href=""><img src="img/logo-part/logo-marseille.png" alt="instapic1"></a>
+            <a href=""><img src="assets/images/logo-part/logo-simplon.png" alt="instapic3"></a>
+            <a href=""><img src="assets/images/logo-part/logo-french-tech.png" alt="instapic2"></a>
+            <a href=""><img src="assets/images/logo-part/logo-marseille.png" alt="instapic1"></a>
         </div>
         <div class="Quii">
-            <img src="img/orange.png" class="bandeorange" alt="vecteur2">
+            <img src="assets/images/orange.png" class="bandeorange" alt="vecteur2">
             <div class="center1">
                     <p class="action">Passez à l'action !</p>
                     <button class="btn2">S'inscrire</button>
