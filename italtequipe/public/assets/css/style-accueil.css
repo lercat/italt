@@ -1082,3 +1082,30 @@ button#ecole:hover {
 }
 }
 
+
+.absolut{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.relative {
+  position: relative;
+  margin: auto;
+  width: 50%;
+ padding: 2%;
+  background-color: #ffffff;
+  opacity: 0.7;
+  text-align: center;
+  top: 7rem;
+  left: 2rem;
+}
+
+.alternant, .ecole, .entreprise{
+  width: 50%;
+  height:35rem;
+  margin: auto;
+  }
+ 
+  button{
+    margin-top: 2rem;
+  }

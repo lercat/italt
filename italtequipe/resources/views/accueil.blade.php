@@ -94,7 +94,6 @@
 
     </section>
 
-
     <section id="contact">
         <h3 class="insta">Ils nous soutiennent </h3>
         <div class="figure-img1">
