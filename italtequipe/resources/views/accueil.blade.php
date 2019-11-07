@@ -21,6 +21,7 @@
         <div class="menu-icon">
            <a href="<?php echo url('/accueil') ?>"><img src="assets/images/logoa.png" class="logo2" alt="logo"></a> 
             <div class="burger">
+            <span></span>
 
             </div>
         </div>
