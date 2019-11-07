@@ -19,11 +19,9 @@
 
     <nav>
         <div class="menu-icon">
-            <img src="assets/images/logoa.png" a href="#accueil" class="logo2" alt="logo">
+           <a href="<?php echo url('/accueil') ?>"><img src="assets/images/logoa.png" class="logo2" alt="logo"></a> 
             <div class="burger">
 
-
-                <span></span>
             </div>
         </div>
 

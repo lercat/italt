@@ -9,19 +9,46 @@
     <title>Candidat</title>
 </head>
 <body>
-<header>
-        <nav>
-            <a href='#'><img src="assets/images/logo.png" alt="logo"> </a>
-            <ul id="menu_nav">
-                <li><a href="<?php echo url('/candidat') ?>">Candidat</a></li>
-                <li><a href="<?php echo url('/entreprise') ?>">Entreprise</a></li>
-                <li><a href="<?php echo url('/ecole') ?>">Organisme de Formation</a></li>
-            </ul>
 
-            <img src="assets/images/image1.jpg"alt="image">
-            
-            <a href="#">Se connecter</a>
-        </nav>
+
+<header>
+
+<nav>
+        <div class="menu-icon">
+           <a href="<?php echo url('/accueil') ?>"><img src="assets/images/logoa.png" class="logo2" alt="logo"></a> 
+            <div class="burger">
+
+            </div>
+        </div>
+
+        <div >
+            <ul class="menu">
+                <img src="assets/images/logoa.png" class="logoa" alt="logo">
+                <li><a class="active"  href="<?php echo url('/ecole') ?>">Écoles</a></li>
+                <li><a class="active1"  href="<?php echo url('/candidat') ?>">Candidats</a></li>
+                <li><a class="active2"  href="<?php echo url('/entreprise') ?>">Entreprises</a></li>
+                <li><a class="active3"  href="<?php echo url('/contact') ?>">Contact</a></li>
+                <li><a href="<?php echo url('/home') ?>"><i class="fa fa-user 7x" id="icon"></i></a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <a id="myBtn" href="#accueil"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+    <header id="accueil">
+        <div class="overlay">
+            <!-- <h1><span></span></h1> -->
+            <img src="assets/images/logo_italt_sombre.png"  class="logo1" alt="logo">
+            <h2>Alternant<br></h2>
+
+    </header>
+
+
+
+
+        
 
         <h1>candidat</h1>
  </header>
