@@ -239,7 +239,7 @@ h1 {
     transform: translateY(-50%);
     width: 100%;
     height: 4px;
-    background-color: #fff;
+    background-color: #FCA311;
     border-radius: 5px;
     transition: background-color 0.2s ease-in-out;
   }
@@ -248,7 +248,7 @@ h1 {
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color: #fff;
+    background-color: #FCA311;
     border-radius: 5px;
     transition: transform 0.2s ease-in-out;
   }
@@ -1081,3 +1081,33 @@ button#ecole:hover {
 }
 }
 
+
+
+
+
+
+.absolut{ 
+  position: absolute; 
+  width: 50%; 
+  height: 100%; 
+ } 
+
+.relative { 
+  position: relative; 
+  margin: auto; 
+  width: 50%; 
+  padding: 2%; 
+  background-color: #ffffff; 
+  opacity: 0.7; 
+  text-align: center; 
+  top: 7rem; left: 2rem; 
+   } 
+  
+ .alternant, .ecole, .entreprise{ 
+    width: 50%; 
+    height:35rem; 
+    margin: auto; 
+   } 
+  
+  
+  button{ margin-top: 2rem; }

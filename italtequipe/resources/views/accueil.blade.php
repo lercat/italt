@@ -69,17 +69,33 @@
             <button id="alternant">Vous êtes un Alternant</button>
             <button id="ecole">Vous êtes une Ecole</button>
 
-            <ul class="alternant" style="display: block;">
-                <li><img src="assets/images/fond-card-alternant.png" class="carte" alt=""></li>
-            </ul>
+           <div class="alternant" style="display: block;"> 
+            <ul class='absolut' >
+             <li><img src="assets/images/fond-card-alternant.png" class="carte" alt=""></li> 
+             </ul> 
+             <p class='relative'> mmmmmmm mmmm mmmmmm mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk <br> 
+             <a href="<?php echo url('/candidat') ?>"><button> commencer </button> </a> 
+             </p>
+              </div> 
+            
+            
+              <div class="ecole" style="display: none;"> 
+              <ul class='absolut'> <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li> 
+              </ul> 
+              <p class='relative'> mmmmmmm mmmm mmmmmm mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk <br> 
+              <a href="<?php echo url('/ecole') ?>"><button> commencer </button> </a> 
+              </p> 
+              </div>
 
-            <ul class="ecole" style="display: none;">
-                <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li>
-            </ul>
-
-            <ul class="entreprise" style="display:none;">
-                <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li>   
-            </ul>
+              <div class="entreprise" style="display:none;"> 
+              <ul class='absolut'> 
+              <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li> 
+              </ul> 
+              <p class='relative'> mmmmmmm mmmm mmmmmm mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk <br> 
+              <a href="<?php echo url('/entreprise') ?>"><button> commencer </button> </a> 
+              </p> 
+              </div>
+           
             <div class="Qui">
                 <img src="assets/images/qui.png" class=="qui1" alt="vecteur2">
                 <div class="center">
