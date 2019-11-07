@@ -67,53 +67,19 @@
             <button id="alternant">Vous êtes un Alternant</button>
             <button id="ecole">Vous êtes une Ecole</button>
 
-            <div class="alternant" style="display: block;">
-            <ul class='absolut' >
+            <ul class="alternant" style="display: block;">
                 <li><img src="assets/images/fond-card-alternant.png" class="carte" alt=""></li>
             </ul>
-            <p class='relative'>
-            mmmmmmm mmmm 
-            mmmmmm 
-            mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
-            <br>
-            <a href="<?php echo url('/candidat') ?>"><button>  commencer </button> </a>
-            </p>
-            </div>
 
-
-
-            <div class="ecole" style="display: none;">
-            <ul class='absolut'>
+            <ul class="ecole" style="display: none;">
                 <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li>
             </ul>
-            <p class='relative'>
-            mmmmmmm mmmm 
-            mmmmmm 
-            mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
-            <br>
-            <a href="<?php echo url('/ecole') ?>"><button>  commencer </button> </a>
-            </p>
-            </div>
 
-
-            <div class="entreprise" style="display:none;">
-            <ul class='absolut'>
-                <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li>
+            <ul class="entreprise" style="display:none;">
+                <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li>   
             </ul>
-            <p class='relative'>
-            mmmmmmm mmmm 
-            mmmmmm 
-            mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk
-            <br>
-            <a href="<?php echo url('/entreprise') ?>"><button>  commencer </button> </a>
-            </p>
-            </div>
-
-
-
-           
             <div class="Qui">
-                <img src="assets/images/qui.png" class="qui1" alt="vecteur2">
+                <img src="assets/images/qui.png" class=="qui1" alt="vecteur2">
                 <div class="center">
                     <b>Qui sommes-nous ?</b>
                     <br><br>Nous sommes une équipe de developpeuses web FullStack , qui ont pour ambition de rendre
@@ -126,25 +92,28 @@
 
     </section>
 
-
     <section id="contact">
         <h3 class="insta">Ils nous soutiennent </h3>
         <div class="figure-img1">
-            <a href=""><img src="assets/images/logo-part/logo-marseille.png" alt="instapic1"></a>
-            <a href=""><img src="assets/images/logo-part/logo-french-tech.png" alt="instapic2"></a>
             <a href=""><img src="assets/images/logo-part/logo-simplon.png" alt="instapic3"></a>
+            <a href=""><img src="assets/images/logo-part/logo-french-tech.png" alt="instapic2"></a>
+            <a href=""><img src="assets/images/logo-part/logo-marseille.png" alt="instapic1"></a>
         </div>
         <div class="Quii">
             <img src="assets/images/orange.png" class="bandeorange" alt="vecteur2">
             <div class="center1">
-                <b>Passez a l'action !</b>
-                <div class="liens">
-                 <button class="button button1">S'incrire</button><br>
-                <li><a class="batata1" href="#" target="_blank" style="font-size:2vw;">FAQ</a></li>
-                <li><a class="batata1"  href="#" target="_blank" style="font-size:2vw;">Nous contacter</a></li>
+                    <p class="action">Passez à l'action !</p>
+                    <button class="btn2">S'inscrire</button>
+                    <ul class="b">
+                            <a><li>Une question ? un problème?</li></a>
+                            <a><li>FAQ</li></a>
+                            <a><li>Nous contacter</li></a>
+                          </ul>
+                   
+
             </div>
         </div>
-        </div>
+        
     </section>
 
 
@@ -153,7 +122,6 @@
 
             <a href="ml.html" target="_blank"></a>
             <a href="licence.html" target="_blank"></a>
-                  </div>
             <!-- <div class="blockContact1">
             <p class="blockContact">
                     Téléphone : +33 7 82 19 76 43
