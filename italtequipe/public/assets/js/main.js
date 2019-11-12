@@ -48,7 +48,7 @@ function moveBackground() {
 //--------------------------------------------------
 const sr = ScrollReveal();
 
-sr.reveal('.logoa', {
+sr.reveal('.logo2', {
 	origin: 'top',
 	distance: '200px',
 	duration: 3000,
