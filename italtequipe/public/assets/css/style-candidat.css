@@ -348,7 +348,7 @@ header .overlay  {
 /*-------------------- SURLIGNAGE DE COULEUR DU MENU -------------------*/
 
  a.active {
-  border-bottom: 6px solid #14213D;
+  border-bottom: 6px solid #162442;
   padding-bottom: 5px;
   }
   a.active1 {
@@ -360,7 +360,7 @@ header .overlay  {
   padding-bottom: 5px;
   }
   a.active3 {
-  border-bottom: 6px solid #14213D;
+  border-bottom: 6px solid #162442;
   padding-bottom: 5px;
   }
 
@@ -540,17 +540,7 @@ justify-content: right;
 list-style: square;
 transform: translate(50%, 50%);
 }
-li a.batata1{
-text-decoration: none;
-color:#fff;
-position: relative;
-top: 38%;
-font-size: 25px;
-justify-content: right;
-list-style: square;
-transform: translate(-50%, -50%);
 
-}
 
 /*-------------------- IMAGES CHANGEMENT AU CLIQUE  -------------------*/
 

@@ -55,7 +55,7 @@
 
 
 
-    <section id="a-propos">
+    
         <div class="title">
             <h3><span>Que pouvons nous faire pour vous ?</span></h3>
             <p>Cliquez sur la rubrique correspondant à votre profil pour découvrir ce que nous proposons</p>
@@ -69,29 +69,30 @@
             <button id="ecole">Vous êtes une Ecole</button>
 
            <div class="alternant" style="display: block;"> 
-            <ul class='absolut' >
-             <li><img src="assets/images/fond-card-alternant.png" class="carte" alt=""></li> 
-             </ul> 
-             <p class='relative'> mmmmmmm mmmm mmmmmm mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk <br> 
-             <a href="<?php echo url('/candidat') ?>"><button> commencer </button> </a> 
+             <!-- <img src="assets/images/fond-card-alternant.png" class="carte" alt=""> -->
+             <p class='relative'><b>Prenez votre envol</b> <br><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                 labore et dolore magna aliqua. Ut enim ad minim veniam, 
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
+             <a href="<?php echo url('/candidat') ?>"><button class="btn3">Commencer</button> </a> 
              </p>
               </div> 
             
             
               <div class="ecole" style="display: none;"> 
-              <ul class='absolut'> <li><img src="assets/images/fond-card-ecole.png" class="carte" alt=""></li> 
-              </ul> 
-              <p class='relative'> mmmmmmm mmmm mmmmmm mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk <br> 
-              <a href="<?php echo url('/ecole') ?>"><button> commencer </button> </a> 
+             <!-- <img src="assets/images/fond-card-ecole.png" class="carte" alt=""> -->
+              <p class='relative'><b>Trouvez vos apprenants</b> <br><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                 labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
+              <a href="<?php echo url('/ecole') ?>"><button class="btn4">Commencer</button> </a> 
               </p> 
               </div>
 
-              <div class="entreprise" style="display:none;"> 
-              <ul class='absolut'> 
-              <li><img src="assets/images/fond-card-entreprise.png" class="carte" alt=""></li> 
-              </ul> 
-              <p class='relative'> mmmmmmm mmmm mmmmmm mlmcopmwlc mcklk dklkjsd sdkjcs ldkjvksdjk <br> 
-              <a href="<?php echo url('/entreprise') ?>"><button> commencer </button> </a> 
+              <div class="entreprise" style="display:none;">  
+              <!-- <img src="assets/images/fond-card-entreprise.png" class="carte" alt=""> -->
+              <p class='relative'><b>Trouvez votre pepite</b> <br><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                 labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
+              <a href="<?php echo url('/entreprise') ?>"><button class="btn5">Commencer</button> </a> 
               </p> 
               </div>
            
@@ -107,7 +108,7 @@
             </div>
         </div>
 
-    </section>
+
 
     <section id="contact">
         <h3 class="insta">Ils nous soutiennent </h3>
@@ -121,16 +122,8 @@
             <div class="center1">
                     <p class="action">Passez à l'action !</p>
                     <button class="btn2">S'inscrire</button>
-                    <ul class="b">
-                            <a><li>Une question ? un problème?</li></a>
-                            <a><li>FAQ</li></a>
-                            <a><li>Nous contacter</li></a>
-                          </ul>
-                   
-
-            </div>
-        </div>
-        
+                   </div>
+               </div>
     </section>
 
 
