@@ -66,7 +66,7 @@
         <div id="imageBloc" style="text-align: center;">
             <button id="entreprise">Vous êtes une Entreprise</button>
             <button id="alternant">Vous êtes un Alternant</button>
-            <button id="ecole">Vous êtes une Ecole</button>
+            <button id="ecole">Vous êtes une École</button>
 
            <div class="alternant" style="display: block;"> 
              <!-- <img src="assets/images/fond-card-alternant.png" class="carte" alt=""> -->
@@ -89,7 +89,7 @@
 
               <div class="entreprise" style="display:none;">  
               <!-- <img src="assets/images/fond-card-entreprise.png" class="carte" alt=""> -->
-              <p class='relative'><b>Trouvez votre pepite</b> <br><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+              <p class='relative'><b>Trouvez votre pépite</b> <br><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                  labore et dolore magna aliqua. Ut enim ad minim veniam, 
                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
               <a href="<?php echo url('/entreprise') ?>"><button class="btn5">Commencer</button> </a> 
@@ -100,9 +100,9 @@
                 <img src="assets/images/qui.png" class=="qui1" alt="vecteur2">
                 <div class="center">
                     <b>Qui sommes-nous ?</b>
-                    <br><br>Nous sommes une équipe de developpeuses web FullStack , qui ont pour ambition de rendre
-                    plus facile l'accès à l'alternace dans le domaine du numérique. C'est pourquoi la création de cette
-                    plateforme qui regrouperait les 3 parties et leurs besoins (Alternant,Entreprise,Ecole)
+                    <br><br>Nous sommes une équipe de développeuses web FullStack et nous avons pour ambition de rendre
+                    plus facile l'accès à l'alternace dans le domaine du numérique. <br> C'est pourquoi la création de cette
+                    plateforme qui regrouperait les 3 parties et leurs besoins (Alternants, Entreprises, Écoles)
                     , nous paraissait évidente.
                 </div>
             </div>
@@ -132,6 +132,8 @@
 
             <a href="ml.html" target="_blank"></a>
             <a href="licence.html" target="_blank"></a>
+           <!-- <p>Tous droits réservés - ©italt - 2019</p>-->
+
             <!-- <div class="blockContact1">
             <p class="blockContact">
                     Téléphone : +33 7 82 19 76 43
