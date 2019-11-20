@@ -121,7 +121,7 @@
             <img src="assets/images/orange.png" class="bandeorange" alt="vecteur2">
             <div class="center1">
                     <p class="action">Passez à l'action !</p>
-                    <button class="btn2">S'inscrire</button>
+                    <button class="btn2" onclick=window.location.href='http://localhost/italt/italtequipe/public/register'>S'inscrire</button>
                    </div>
                </div>
     </section>
