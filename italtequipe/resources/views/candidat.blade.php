@@ -57,6 +57,7 @@
 
     
         <div class="title">
+        <img src="assets/images/vecteur recherche.png" a href="#accueil" class="" alt="">
             <h3><span>Rechercher par catégories</span></h3>
             
         </div>
@@ -68,25 +69,12 @@
 
 
     <section id="contact">
-        <h3 class="insta">Ils nous soutiennent </h3>
-        <div class="figure-img1">
-            <a href=""><img src="assets/images/logo-part/logo-simplon.png" alt="instapic3"></a>
-            <a href=""><img src="assets/images/logo-part/logo-french-tech.png" alt="instapic2"></a>
-            <a href=""><img src="assets/images/logo-part/logo-marseille.png" alt="instapic1"></a>
-        </div>
-        <div class="Quii">
-            <img src="assets/images/orange.png" class="bandeorange" alt="vecteur2">
-            <div class="center1">
-                    <p class="action">Passez à l'action !</p>
-                    <button class="btn2" onclick=window.location.href='http://localhost/italt/italtequipe/public/register'>S'inscrire</button>
-                   </div>
-               </div>
+
     </section>
 
 
     <footer>
         <div class="footer-container">
-
             <a href="ml.html" target="_blank"></a>
             <a href="licence.html" target="_blank"></a>
            <!-- <p>Tous droits réservés - ©italt - 2019</p>-->
