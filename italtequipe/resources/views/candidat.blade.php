@@ -57,7 +57,6 @@
 
     
         <div class="title">
-        <img src="assets/images/vecteur recherche.png" a href="#accueil" class="" alt="">
             <h3><span>Rechercher par catégories</span></h3>
             
         </div>
